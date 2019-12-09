@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Emums {
     //enums can not have methods or fields
@@ -12,5 +8,14 @@ namespace Emums {
     public enum MyEnum2 { Value5 = 5, Value6, Value7 }
 
     public enum MyRange : long { Max = 9223372036854775807, Min = -9223372036854775808 }    //only value types
+
+    // this attribute only overrides the ToString method, the bitwise operations are still poss without
+    [Flags]
+    public enum MyFlagEnum {
+        Value0 = 0,    // 0000
+        Value1 = 1,    // 0001
+        Value2 = 2,    // 0010
+        Value3 = 4     // 0100
+    }                  
 
 }

@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Interfaces {
-    class GenericContainer : IGenericContainer<MyObject> {
+    class GenericContainer<T> : IGenericContainer<T> {
 
-        public MyObject Value { get; set; }
+        public T Value { get; set; }
 
-        public void Add(MyObject value) {
+        public void Add(T value) {
             Value = value;
         }
 
-        public MyObject Get() {
+        public T Get() {
             return Value;
         }
 

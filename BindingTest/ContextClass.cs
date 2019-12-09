@@ -11,8 +11,8 @@ namespace Practice.BindingTest {
         private string name;
         public string Name
         {
-            get { return name; }
-            set { name = value; RaisePropertyChanged("Name"); }
+            get => name; 
+            set => RaisePropertyChanged(ref name, value); 
         }
 
         public ContextClass()

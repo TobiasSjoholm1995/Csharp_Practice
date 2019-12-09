@@ -1,0 +1,5 @@
+SOLID is meant for software entities: modules, classes, methods...
+
+SOLID is aiming for a big system with changing (unknown) requirements.
+
+SOLID is trying to make the code flexible but (sometimes) with the cost of extra complexibility.

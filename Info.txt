@@ -1,0 +1,20 @@
+There are different types of testing.
+
+Unit Testing:
+	A unit is the smallest testable part of an application, often a single method.
+
+Integration Testing:
+	Test how how compnents integrate/interact with each other.
+
+Functional Testing:
+	Test from user point of view, dont care about how the code looks. Often test multiple methods.
+	Example: test the functionality to add a user to a DB.
+
+
+
+
+There ar also ways to test the user interface
+     Selenium   - For Web UI testing
+     Appium     - For Desktop UI testing
+
+

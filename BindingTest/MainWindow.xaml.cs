@@ -13,7 +13,7 @@ namespace Practice.BindingTest {
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            myContextClass.Name = "you clicked the button";
+            myContextClass.Name = "You clicked the button";
         }
 
         public MainWindow()

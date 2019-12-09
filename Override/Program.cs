@@ -5,7 +5,7 @@ namespace Practice.Override {
         static void Main(string[] args) {
             BaseClass    b  = new BaseClass();
             DerivedClass d  = new DerivedClass();
-            BaseClass db    = new DerivedClass();
+            BaseClass    db = new DerivedClass();
 
             Console.WriteLine("Override:");
             b.Run();

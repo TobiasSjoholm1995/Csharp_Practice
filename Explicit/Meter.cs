@@ -8,7 +8,7 @@ namespace Practice.Explicit {
     public class Meter {
         public double Distance { get; set; }
 
-        //this method can be anywhere
+        //this method can be in any of the 2 classes
         public static implicit operator Yard(Meter m) {
             Yard y = new Yard() { Distance = m.Distance * 1.0936133 };
             return y;

@@ -46,22 +46,24 @@
     <Compile Include="Benefits.cs" />
     <Compile Include="Container.cs" />
     <Compile Include="DerivedObject.cs" />
+    <Compile Include="ExplicitImplementationTest.cs" />
     <Compile Include="GenericContainer.cs" />
-    <Compile Include="IContainer.cs" />
-    <Compile Include="IContainerLimitation.cs" />
-    <Compile Include="IContainer_in.cs" />
-    <Compile Include="IContainer_out.cs" />
-    <Compile Include="IMultiInheritance.cs" />
+    <Compile Include="Interfaces\IContainer.cs" />
+    <Compile Include="Interfaces\IContainerLimitation.cs" />
+    <Compile Include="Interfaces\IContainer_in.cs" />
+    <Compile Include="Interfaces\IContainer_out.cs" />
+    <Compile Include="Interfaces\IMultiInheritance.cs" />
     <Compile Include="MultiInheritance.cs" />
     <Compile Include="MyObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Variance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IGenericContainer.cs" />
+    <Compile Include="Interfaces\IGenericContainer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

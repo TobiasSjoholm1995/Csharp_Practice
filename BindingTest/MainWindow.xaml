@@ -4,7 +4,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <TextBox Text="{Binding Name, Mode=TwoWay,  UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <TextBox Text="{Binding Name, Mode=TwoWay,  UpdateSourceTrigger=PropertyChanged}"/>
             <Button Click="Button_Click" Height="30" Width="100" Content="Click Me" HorizontalAlignment="Left"></Button>
         </StackPanel>
     </Grid>
